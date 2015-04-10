@@ -11,5 +11,5 @@ RUN apt-get update && \
     git clone git://github.com/ether/etherpad-lite.git
 
 EXPOSE 9001
-CMD ["/etherpad-lite/bin/run.sh"]
+CMD ["/etherpad-lite/bin/run.sh", "--root"]
 
