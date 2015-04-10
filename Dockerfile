@@ -1,6 +1,7 @@
 # c12e/mongodb
 
-FROM c12e/debian
+#FROM c12e/debian
+FROM google/nodejs
 MAINTAINER Cognitive Scale congnitivescale.com
 
 RUN apt-get update && \
